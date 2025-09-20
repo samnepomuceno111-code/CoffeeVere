@@ -92,18 +92,17 @@ nav img {
 
 }
 
+.row {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;       
+  gap: 20px;                     
+}
+
 .about-col {
-    flex-basis: 48%;
-    padding: 30px 2px;
-    color: #fff;
-}
-
-.about-col h1 {
-    text-align: left;
-}
-
-.about-col p{
-    text-align: left;
+  flex-basis: 48%; 
+  padding: 30px 2px;
+  color: #fff;
 }
             
 .about-col img{
@@ -118,8 +117,8 @@ nav img {
                 <a href="index.html"><img src="../CoffeeVere/img/pls.png"></a>
                 <div class="nav-links">
                     <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">ABOUT</a></li>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
                         <li><a href="">TIPS</a></li>
                         <li><a href="">RECIPES</a></li>
                         <li><a href="">REFERENCES</a></li>
@@ -132,20 +131,17 @@ nav img {
         </section>
 
         <section class="about-author">
-            <div class="row">
-                <div class ="about-col">
-                    <h1>Samara Nepmuceno</h1>
-                    <p>I'm the founder of CoffeeVerse, and coffee is an adventure with flavor, craftsmanship, and culture. CoffeeVerse was created to explore that adventure and appreciate the traditions that exist around the popular beverage. With knowledge and atmosphere at your fingertips, there is always something new to find here.</p>
-                <div class="about-col">
-                    <img src="../CoffeeVere/img/me.jpg">
-                </div>
-                </div>
-            </div>
-        </section>
+  <div class="row">
+    <div class="about-col">
+      <h1>Samara Nepmuceno</h1>
+      <p>I'm the founder of CoffeeVerse, and coffee is an adventure with flavor, craftsmanship, and culture. CoffeeVerse was created to explore that adventure and appreciate the traditions surrounding the popular beverage. With knowledge and atmosphere at your fingertips, there is always something new to find here.</p>
+    </div>
 
-        <section class="footer">
-            <h4>About Us</h4>
-            <p>smth smth</p>
-        </section>
+    <div class="about-col">
+      <img src="../CoffeeVere/img/me.jpg" alt="Author photo">
+    </div>
+  </div>
+</section>
+
     </body>
 </html>
