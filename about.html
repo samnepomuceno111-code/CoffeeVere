@@ -57,17 +57,6 @@ nav img {
     width: 100%;
 } 
 
-.footer {
-    width: 100%;
-    text-align: center;
-    padding: 30px 0;
-}
-
-.footer h4 {
-    margin-bottom: 25px;
-    margin-top: 20px;
-    font-weight: 600px;
-}
 .sub-header {
     height: 50vh;
     width: 100%;
@@ -82,32 +71,35 @@ nav img {
     margin-top: 85px;
 }
 
-.about-author {
-    width: 80%;
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom: 50px;
-    text-align: left;
-    color: black;
-
-}
-
 .row {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;            
-  gap: 30px;                      
-}
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
 
-.about-col {
-  flex: 1;          
-  min-width: 300px; 
-}
+    .about-col {
+      flex: 1;
+      padding: 30px 20px;
+      min-width: 300px;
+      color: #333;
+    }
 
-.about-col img {
-  width: 100%;
-  border-radius: 12px; 
-}
+    .about-col h1 {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    .about-col p {
+      text-align: left;
+      line-height: 1.6;
+    }
+
+    .about-col img {
+      width: 100%;
+      border-radius: 12px;
+    }
 
   
         </style>
@@ -136,9 +128,9 @@ nav img {
                 <div class ="about-col">
                     <h1>Samara Nepmuceno</h1>
                     <p>I'm the founder of CoffeeVerse, and coffee is an adventure with flavor, craftsmanship, and culture. CoffeeVerse was created to explore that adventure and appreciate the traditions that exist around the popular beverage. With knowledge and atmosphere at your fingertips, there is always something new to find here.</p>
-                <div class="about-col">
+               </div>
+                    <div class="about-col">
                     <img src="../CoffeeVere/img/me.jpg" alt="Author photo">
-                </div>
                 </div>
             </div>
         </section>
