@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>All You Need to Know About Coffee</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap">
+        <style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+  width: 120px;
+}
+          
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 20px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #8C8C8C;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+} 
+
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(122, 133, 174, 0.7),rgba(73, 81, 110, 0.7)),url("../CoffeeVere/img/smth.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header h1 {
+    margin-top: 85px;
+    font-size: 60px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.about-col {
+    flex: 1;
+    padding: 30px 20px;
+    margin-left: 40px;
+    min-width: 300px;
+    color: #333;
+}
+
+.about-col h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.about-col p {
+    text-align: left;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.about-col img {
+    width: 500px;
+    border-radius: 12px;
+    margin-left: 40px;
+}
+
+</style>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="../CoffeeVere/img/pls.png"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="">TIPS</a></li>
+                        <li><a href="recipes.html">RECIPES</a></li>
+                        <li><a href="">REFERENCES</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        <h1>About the Author</h1>
+            
+        </section>
+
+        <section class="about-author">
+            <div class="row">
+                <div class ="about-col">
+                    <h1>Meet Samara Nepomuceno</h1>
+                    <p>I'm the founder of CoffeeVerse, and coffee is an adventure with flavor, craftsmanship, and culture. CoffeeVerse was created to explore that adventure and appreciate the traditions surrounding the popular beverage. With knowledge and atmosphere at your fingertips, there is always something new to find here.</p>
+               </div>
+                    <div class="about-col">
+                    <img src="../CoffeeVere/img/me.jpg" alt="Author photo">
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
