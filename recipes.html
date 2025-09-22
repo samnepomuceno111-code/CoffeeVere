@@ -71,38 +71,52 @@ nav img {
     margin-top: 85px;
     font-size: 60px;
 }
-.row {
+
+.preview {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+.roww {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    gap: 20px; 
 }
 
-.about-col {
-    flex: 1;
-    padding: 30px 20px;
-    margin-left: 40px;
-    min-width: 300px;
-    color: #333;
-}
-
-.about-col h1 {
-    text-align: left;
+.preview-col {
+    flex: 1 1 30%; 
+    border-radius: 10px;
     margin-bottom: 20px;
-    font-size: 40px;
+    text-align: center; 
 }
 
-.about-col p {
+.preview-col img {
+    width: 100%; 
+    height: 600px; 
+    border-radius: 10px;
+}
+
+.preview h1 { 
+    margin-bottom: 10px; 
+    font-size: 35px;
+}
+
+.preview-col h3 {
+    margin-top: 15px;  
+    margin-bottom: 10px; 
+    font-size: 24px;
     text-align: left;
-    line-height: 1.6;
-    font-size: 20px;
 }
 
-.about-col img {
-    width: 500px;
-    border-radius: 12px;
-    margin-left: 40px;
+.preview-col p {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
 }
 
 .footer {
@@ -147,7 +161,7 @@ nav img {
             <h1>Classics</h1>
             <div class="roww">
                 <div class="preview-col">
-                    <a href="about.html" img src="../CoffeeVere/img/la.jpg"></a>
+                    <img src="../CoffeeVere/img/la.jpg">
                     <h3>Caffè Latte</h3>
                     <p>Espresso and steamed milk come together in a latte to form a rich, smooth treat.</p>
                 </div>
