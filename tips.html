@@ -76,10 +76,20 @@ nav img {
     font-size: 60px;
 }
 
-.preview {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.slider {
+  width: 100%;
+  max-width: 1000px;
+  margin: 40px auto;
+  overflow-x: auto;         
+  scroll-snap-type: x mandatory;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
 }
 
 .card-list .card-item {
@@ -87,6 +97,7 @@ nav img {
     width: 400px;
     padding: 35px;
     display: flex;
+    scroll-snap-align: start;
     flex-direction: column;
     align-items: center;
     justify-content: center;
