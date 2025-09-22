@@ -76,52 +76,52 @@ nav img {
     font-size: 60px;
 }
 
-.slider {
-  width: 100%;
+.preview {
+  margin: 50px auto;
   max-width: 1000px;
-  margin: 40px auto;
-  overflow-x: auto;         
-  scroll-snap-type: x mandatory;
+}
+
+.slider {
   display: flex;
   gap: 20px;
-  padding: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+  padding: 20px;
 }
 
 .slider::-webkit-scrollbar {
   display: none;
 }
 
-.card-list .card-item {
-    color:#fff;
-    width: 400px;
-    padding: 35px;
-    display: flex;
-    scroll-snap-align: start;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    backdrop-filter: blur(30px);
-    background: rgba(122, 133, 174, 0.2);
-    border: 1px solid rgba(122, 133, 174, 0.5)
+.card-item {
+  flex: 0 0 300px;
+  scroll-snap-align: start;
+  background: rgba(122, 133, 174, 0.2);
+  border-radius: 8px;
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+  border: 1px solid rgba(122, 133, 174, 0.5);
 }
 
-.card-list .card-item .user-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 10%;
-    margin-bottom: 40px;
-    border: 3px solid #fff;
-    padding: 4px;
+.card-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  border: 3px solid #fff;
+  padding: 4px;
+  margin-bottom: 20px;
 }
- 
-.card-list .card-item .tip-desc {
-    font-size: 1.15rem;
-    color: #e3e3e3;
-    font-weight: 500;
-    margin: 14px 0 20px;
-    text-align: center;
+
+.card-item h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-item p {
+  font-size: 15px;
+  color: #e3e3e3;
 }
 
 .footer {
