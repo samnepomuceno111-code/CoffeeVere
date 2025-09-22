@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>All You Need to Know About Coffee</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap">
+        <style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #733636; 
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+  width: 150px;
+}
+          
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 20px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #5C0B12;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+} 
+
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(122, 133, 174, 0.7),rgba(73, 81, 110, 0.7)),url("../CoffeeVere/img/smth.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header h1 {
+    margin-top: 85px;
+    font-size: 60px;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #9DAC95;
+}
+
+.footer h4 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-weight: 600px;
+}
+
+.footer p{
+    font-size: small;
+}
+
+</style>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="../CoffeeVere/img/pls.png"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="">TIPS</a></li>
+                        <li><a href="recipes.html">RECIPES</a></li>
+                        <li><a href="">REFERENCES</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        <h1>Recipes</h1>
+            
+        </section>
+
+
+
+        <section class="footer">
+            <h4>CoffeeVerse ☕︎</h4>
+            <p>Learn, Brew, Savor</p>
+        </section>
+    </body>
+</html>
